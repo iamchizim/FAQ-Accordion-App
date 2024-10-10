@@ -32,6 +32,7 @@ const FAQApp = () => {
 
   return (
     <section>
+      <h1>FAQ Accordion</h1>
       {faqs.map((faq, index) => (
         <div key={index}>
           <h3 onClick={() => handleCurrentlyClicked(index)}>{faq.question}</h3>
